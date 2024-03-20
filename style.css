@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #5e5252 !important;
+
+}
+
+
+#h-1 {
+    color: red;
+    font-size: 30px;
+}
+
+#con-1 {
+    margin: 0px 85px;
+    gap: 15%
+}
+
+.nav-item {
+    margin: 0px 40px;
+}
+
+#nav-1 {
+    background-color: #1a1a1a;
+
+}
+
+.ul-1 li a:hover {
+    color: red;
+    
+}
+
+.ul-1 li a {
+    color: rgb(245, 88, 88);
+    font-size: 20px;
+}
+
+
+
+/* card-section */
+
+
+.card-1 {
+    background-image: url(./hi-tech-modern-layout-stage-600w-1909213939.webp);
+    height: 55vh;
+    margin: 80px 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+}
+
+.card-2 {
+
+    margin: 0px 50px;
+
+}
+
+.card-2 p {
+    padding-top: 3rem;
+    color: #fff;
+    font-size: 30px;
+}
+
+.subhead {
+    color: #fff;
+    /* width: 40%; */
+    font-size: 40px;
+    font-family: cursive;
+    margin-top: 30px;
+}
+
+.subhead span {
+    color: red;
+}
+
+.card-2 button {
+    margin-top: 30px;
+    color: #fff;
+    padding: 16px 55px;
+    border: red;
+    /* outline: red; */
+    border-radius: 35px;
+    background-color: red;
+    font-family: cursive;
+
+}
+
+
+
+
+/* Game-section */
+
+
+
+.game-card {
+    margin: 50px 60px;
+    background-color: #1a1a1a;
+    border-radius: 20px;
+    padding: 35px;
+     /* margin: 0 auto; */
+    /* height: 160vh; */
+}
+
+.game-card h3 {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.game-card span {
+    color: red;
+}
+
+.game-all {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 30px;
+}
+
+#img-card {
+    width: 50%;
+}
+
+#card-1 {
+    /* background-color: red; */
+    cursor: pointer;
+}
+#card-1:hover{
+    color: red;
+}
+
+
+/* Libary-section */
+
+
+.libary-gaming {
+    margin: 50px 60px;
+    background-color: #1a1a1a;
+    border-radius: 20px;
+    padding: 35px;
+}
+
+.libary-logo h3 {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.libary-logo span {
+    color: red;
+}
+
+.g-card1 {
+    display: flex;
+    /* column-gap: 20px; */
+    color: #fff;
+    /* font-size: 15px; */
+    justify-content: space-around;
+    align-items: center;
+    background-color: #222;
+    border-radius: 10px;
+    margin: 15px 0px;
+    cursor: pointer;
+    flex-wrap: wrap;
+}
+.g-card1 img{
+    border-radius: 10px;
+}
+.p-1{
+    font-size: 17px;    
+    text-align: center;
+    
+}
+.p-1:hover{
+    color: red;
+}
+.button-card{
+    padding: 0px 15px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    height: 8vh;
+    margin: 0px 20px;
+}
+.button-card:hover{
+    background-color: red;
+
+}
+.button-1{
+    padding: 0px 30px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    height: 8vh;
+  
+}
+.button-1:hover{
+
+    background-color: red;
+}
+.b{
+    text-align: center;
+    /* margin: 31px 20px; */
+    margin-top: 30px;
+}
+
+/* footer */
+.footer{
+ 
+    background-color: #1a1a1a;
+    
+    padding: 35px;
+
+}
+.foot{
+    text-align: center;
+    font-size: 20pxpx;
+    color: black;
+}
+#foot-card{
+    background-color: #1a1a1a !important;
+
+}
+.foot-logo{
+    color: red;
+}
+.foot-ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 0 !important;
+    flex-wrap: wrap;
+}
+.foot-ul li{
+    list-style: none;
+    text-decoration: none;
+}
+.foot-ul li a{
+    text-decoration: none;
+    color: red;
+}
+                /* Top game  */
+.top-game{
+    margin: 50px 60px;
+    background-color: #1a1a1a;
+    border-radius: 20px;
+    padding: 35px;
+}
+.top-logo{
+    color: red;
+    text-align: center;
+    margin: 10px 0px;
+    text-decoration: none;
+}
+.top-img img{
+    border-radius: 15px;
+}
+.top-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    flex-wrap: wrap;
+}
+.top-game h2{
+    margin-bottom: 30px;
+}
+
+
+
+
+/* Media Query */
+
+
+@media only screen and (max-width: 1024px){
+   
+}
